@@ -1,0 +1,2 @@
+# Interpretable-ML-Prediction-of-Metal-Ligand-Stability-Constants
+Machine learning framework for predicting stability constants of metal–ligand complexes using metal-containing SMILES, RDKit and metal-specific descriptors. Integrates MLP, CNN and ensemble with Bayesian optimization. Trained on NIST and IUPAC datasets. SHAP analysis enables interpretable prediction for ligand screening and metal-ion selectivity.
