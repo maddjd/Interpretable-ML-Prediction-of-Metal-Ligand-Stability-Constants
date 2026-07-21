@@ -1,0 +1,61 @@
+name: logk-ml
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+
+  # =========================
+  # Python environment
+  # =========================
+  - python=3.10
+
+
+  # =========================
+  # Data processing
+  # =========================
+  - numpy
+  - pandas
+
+
+  # =========================
+  # Machine learning
+  # =========================
+  - scikit-learn
+  - scipy
+
+
+  # =========================
+  # Chemistry tools
+  # =========================
+  - rdkit
+
+
+  # =========================
+  # Jupyter support
+  # =========================
+  - jupyter
+  - notebook
+
+
+  # =========================
+  # Pip packages
+  # =========================
+  - pip
+  - pip:
+
+      # Bayesian optimization
+      - optuna
+
+      # Deep learning framework
+      - mindspore
+
+      # Feature selection
+      - feature-selector
+
+      # Document generation
+      - python-docx
+
+      # Model interpretation (optional)
+      - shap
